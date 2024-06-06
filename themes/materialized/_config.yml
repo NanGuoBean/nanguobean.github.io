@@ -37,10 +37,10 @@ analytics: # Site analytics IDs
   baidu_site_id:
   cnzz_site_id:
 pages: # Custom page links. Set with `name` and `link`
-- name: Tags
-  link: /tags
-- name: Gallery
-  link: /gallery
+# - name: 标签
+#   link: /tags
+# - name: 归档
+#   link: /gallery
 links: # Friendship links. Set with `name` and `link`
 - name: Github
   link: https://github.com
@@ -55,15 +55,15 @@ gallery: # CDN links of `fancybox` plugin used on Gallery page
   jquery_js: https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
   lazyload_js: https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js
 busuanzi: # Use `busuanzi` plugin to count website visits
-  site: false
-  page: false
+  site: true
+  page: true
   busuanzi_js: http://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 qrcode: # Qrcode for articles. if use `plugin`, `hexo-helper-qrcode` plugin is needed
   caption: Send to mobile phone
   use: link
 donate: # Use your payment qrcode or link to receive donations. Set with `name` and `link`
 search: # Search settings. if use `plugin`, `hexo-generator-search` plugin is needed and `path` should be set correctly
-  placeholder: Enter the key words
+  placeholder: 请输入关键词
   path: /search.xml
   use: plugin
 comment: # Comment plugin settings. Set `use` with the plugin name such as `gitalk`
