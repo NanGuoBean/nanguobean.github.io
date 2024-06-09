@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "745545bb4af11a2d",
+    "type": "split",
+    "children": [
+      {
+        "id": "482ce1c0ff40ff6a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "197be2b76049657a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "source/_posts/2024年6月leetcode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "eddafb1d362e5817",
+    "type": "split",
+    "children": [
+      {
+        "id": "afe64d07e8f1ee58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7a09aa08a16b078",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "767ca30c5f964f08",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6858441e30092780",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "1e933a4b20252f6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "e120dd6a768c4141",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb1d071b85f5beb0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "source/_posts/2024年6月leetcode.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4c60e9aeca3562c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "source/_posts/2024年6月leetcode.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dd4d2116fe2b1b51",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "00ddfea096f148a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "source/_posts/2024年6月leetcode.md"
+              }
+            }
+          },
+          {
+            "id": "1cbaffa93a7678b3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "1cbaffa93a7678b3",
+  "lastOpenFiles": [
+    "source/_posts/隔与不隔.md",
+    "source/_posts/2024年6月leetcode.md"
+  ]
+}
