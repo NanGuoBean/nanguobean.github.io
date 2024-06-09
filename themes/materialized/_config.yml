@@ -1,6 +1,6 @@
 theme_color: # Theme color. Please go to [Colors](https://www.mdui.org/docs/color)
   primary: indigo
-  accent: pink
+  accent: pink                                                                                                                                                                                                        
 
 notice: # Notice or announcement. Support `<a>` tag
 
