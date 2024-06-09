@@ -1,3 +1,10 @@
+---
+title: 2024年6月leetcode
+date: 2024-06-01 13:00:00
+tags: 刷题
+categories: 面试
+---
+
 ##  🔶Day0 [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 找所有相邻且异或和相等的串对。
