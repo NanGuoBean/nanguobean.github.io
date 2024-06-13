@@ -5,7 +5,7 @@ tags: 刷题
 categories: 面试
 ---
 
-##  🔶Day0 [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
+##  🔶Day-1 [1442. Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 找所有相邻且异或和相等的串对。
 
@@ -13,7 +13,7 @@ trick是，a和b异或相等，那么从a中减掉一个数加给b，异或和�
 
 然后加上前缀和，n^2 查找就ok了。
 
-## 🔶Day1 [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
+## 🔶Day0 [260. Single Number III](https://leetcode.com/problems/single-number-iii/)
 
 这个题超级有意思！
 
@@ -25,19 +25,19 @@ trick是，a和b异或相等，那么从a中减掉一个数加给b，异或和�
 
 巧妙！
 
-## 【水题】Day2  [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/)
-
-## 【水题】Day3 [344. Reverse String](https://leetcode.com/problems/reverse-string/)
-## 【水题】Day4 [2486. Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)
-
-## 【水题】Day5 [409. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
-
-## 【水题】Day6 [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/)
-代码量有点大
-## 【水题】Day7 [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
-## Day8 [648. Replace Words](https://leetcode.com/problems/replace-words/)
+## Day9 [648. Replace Words](https://leetcode.com/problems/replace-words/)
 字典树，代码量略微有些大
-## 【水题】Day9 [523. Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/)
 
-## 【水题】Day10 [974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/)
-和前一道题的区别是，数据范围更小，可以直接桶存储不用map。
+## Day12 [75. Sort Colors](https://leetcode.com/problems/sort-colors/)
+
+只包含0、1、2的数组排序。
+
+O（1）空间的话，可以两个指针记录当前0和2的位置，然后进行交换
+
+## Day13 [2037. Minimum Number of Moves to Seat Everyone](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/)
+
+若干椅子和若干人随机分布在数轴上，需要计算人最少的移动距离，使每个人和椅子一一对应。
+
+最简单肯定是贪心了，每个人肯定是匹配最近的椅子，当然，也可以用椅子匹配最近的人。
+
+排序可以做，但有一个更好的方法：是把椅子当成-1把人当成+1（反着也可）都放在一起，然后计算某个位置的前缀和。如果为0说明匹配，否则就说明有一者多出来。多出来的就得往后“挪”或者“走”。所以加上这个多出来的绝对值与距离的乘积即可。
