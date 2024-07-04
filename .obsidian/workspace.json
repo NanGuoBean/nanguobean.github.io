@@ -156,6 +156,10 @@
   },
   "active": "197be2b76049657a",
   "lastOpenFiles": [
+    "scaffolds/post.md",
+    "scaffolds/draft.md",
+    "scaffolds/page.md",
+    "source/_posts/2024年6月leetcode.md",
     "public/tags/刷题/index.html",
     "public/tags/刷题",
     "public/tags",
@@ -166,8 +170,6 @@
     "public/categories/文学/index.html",
     "public/categories/面试",
     "public/categories/文学",
-    "public/categories",
-    "source/_posts/隔与不隔.md",
-    "source/_posts/2024年6月leetcode.md"
+    "source/_posts/隔与不隔.md"
   ]
 }
